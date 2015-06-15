@@ -19,5 +19,8 @@
     "cbr",
     "cbrreader"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.1.1"
+  }
 }
