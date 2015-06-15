@@ -20,9 +20,4 @@
     "cbrreader"
   ],
   "license": "MIT",
-  "dependencies": {
-    "bluebird": "^2.9.30",
-    "copy-dir": "0.0.7",
-    "shelljs": "^0.5.1"
-  }
 }
