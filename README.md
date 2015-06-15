@@ -1,5 +1,7 @@
 # CBR - CBR book reader
 
+[![devDependency Status](https://david-dm.org/bhargavrpatel/cbrreader.svg)](https://david-dm.org/bhargavrpatel/cbrreader#info=dependencies&view=table)
+
 Utility for `.cbr` file handling.
 
 ## Installation
