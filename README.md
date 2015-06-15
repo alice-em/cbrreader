@@ -18,7 +18,7 @@ npm install -g cbr
 ```
 After that, the application can be used like any other terminal command
 ```
-Usage: cbr [source.cbr]
+Usage: cbr [source.cbr] {OPTIONS}
 
 Standard Options:
     --output, -o  Destination folder of all the images.
