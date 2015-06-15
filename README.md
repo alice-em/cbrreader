@@ -18,7 +18,7 @@ npm install -g cbr
 ```
 After that, the application can be used like any other terminal command
 ```
-Usage: cbr [source.cbr] {OPTIONS}
+Usage: cbr [source.cbr]
 
 Standard Options:
     --output, -o  Destination folder of all the images.
@@ -36,6 +36,13 @@ Use of this utility is straightforward.
 
 ```Javascript
 var cbr = require('cbr');
+
+cbr(argv._[0], function(error, out) {
+  if (error) {
+    // Deal with error here
+  }
+  // Successfully extracted images into ./temp
+}
 ```
 
 ### LICENSE
