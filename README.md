@@ -22,9 +22,9 @@ Usage: cbr [source.cbr] {OPTIONS}
 
 Standard Options:
     --output, -o  Destination folder of all the images.
-                  If unspecified, cbr extracts in *output* directory in the same level as source.cbr.
+                  If unspecified, cbr extracts comics in ./temp.
 
-     --debug, -d  Allows users to see what is happening through each point in the process
+     --debug, -d  Allows users to see what is happening through each point in the process (not yet implemented)
 
       --help, -h  Shows the help menu
 
@@ -44,6 +44,9 @@ cbr(argv._[0], function(error, out) {
   // Successfully extracted images into ./temp
 }
 ```
+
+## Third-party contributions
+Unrar binary executables for supported platforms, created by Rarlabs are shipped with this non-profit module.
 
 ### LICENSE
 
