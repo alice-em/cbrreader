@@ -46,8 +46,9 @@ cbr(argv._[0], function(error, out) {
 ```
 
 ## Third-party contributions
-Unrar binary executables for supported platforms, created by Rarlabs are shipped with this non-profit module.
+Unrar binary executables for supported platforms, created by Rarlabs are shipped with this non-profit module. Please note that the ASCII art of the RAR logo has been omited as it was messing up formatting on browser.
 
+~~~~~~~~~
 The UnRAR sources may be used in any software to handle RAR
 archives without limitations free of charge, but cannot be used
 to re-create the RAR compression algorithm, which is proprietary.
@@ -57,13 +58,6 @@ stated in the documentation and source comments that the code may
 not be used to develop a RAR (WinRAR) compatible archiver.
 
 Original UnRAR licence:
-
-******    *****   ******   UnRAR - free utility for RAR archives
-**   **  **   **  **   **  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-******   *******  ******    License for use and distribution of
-**   **  **   **  **   **   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-**   **  **   **  **   **         FREE portable version
-~~~~~~~~~~~~~~~~~~~~~
 
 The source code of UnRAR utility is freeware. This means:
 
@@ -96,14 +90,16 @@ utility.
 
 Thank you for your interest in RAR and UnRAR.
 
-
 Alexander L. Roshal
+~~~~~~~~~
 
 ### LICENSE
 
 #### MIT License
+
 Licensed under MIT (C) 2015 Bhargav R. Patel.
 
+~~~~~~~~~
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -121,3 +117,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+~~~~~~~~~
