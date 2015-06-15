@@ -1,3 +1,18 @@
 #!/usr/bin/env node
+var cbr = require('../lib/cbr');
+var argv = require('minimist')(process.argv.slice(2));
 
-console.log("Hello, World!");
+// If no argument is provided, print help and exit with error
+if (argv.length != 1) {
+  console.error("Usage: cbr [source]")
+  process.exit(1);
+}
+
+// Pass in the argument as source .cbr file and extract into ./tmp 
+cbr(argv._[0], function(error, out) {
+  if (error) {
+    console.error(error);
+    process.exit(1);
+  }
+  console.log(out);
+});
