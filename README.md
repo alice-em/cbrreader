@@ -1,6 +1,7 @@
 # CBR - CBR book reader
 
 [![devDependency Status](https://david-dm.org/bhargavrpatel/cbrreader.svg)](https://david-dm.org/bhargavrpatel/cbrreader#info=dependencies&view=table)
+[![npm](https://img.shields.io/npm/l/express.svg)](https://github.com/bhargavrpatel/cbrreader/blob/master/LICENSE.md)
 
 [![NPM](https://nodei.co/npm/cbr.png)](https://npmjs.org/package/cbr)
 
