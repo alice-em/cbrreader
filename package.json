@@ -1,6 +1,6 @@
 {
   "name": "cbr",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Bhargav R. Patel",
   "description": "CBR allows users to extract images into a folder of their choosing",
   "main": "./lib/cbr.js",
