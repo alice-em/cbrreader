@@ -12,6 +12,7 @@
     "url": "https://github.com/bhargavrpatel/cbrreader.git"
   },
   "scripts": {
+    "start": "node ./lib/cbr.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
