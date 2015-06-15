@@ -21,6 +21,6 @@
   "license": "MIT",
   "dependencies": {
     "bluebird": "^2.9.30",
-    "copy-dir": "0.0.7",
+    "copy-dir": "0.0.7"
   }
 }
