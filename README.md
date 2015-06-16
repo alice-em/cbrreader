@@ -44,7 +44,7 @@ Use of this utility is straightforward.
 ```Javascript
 var cbr = require('cbr');
 
-cbr(argv._[0], function(error, out) {
+cbr(input, output, function(error, out) {
   if (error) {
     // Deal with error here
   }
