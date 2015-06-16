@@ -1,9 +1,7 @@
 #!/usr/bin/env node
 var cbr = require('../lib/cbr'),
     argv = require('minimist')(process.argv.slice(2)),
-    input, output;
-var path = require('path');
-
+    path = require('path');
 
 // // If no argument is provided, print help and exit with error
 if ((argv._.length < 1)) {
