@@ -1,6 +1,6 @@
 {
   "name": "cbr",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "author": "Bhargav R. Patel",
   "description": "CBR allows users to extract images into a folder of their choosing",
   "main": "./lib/cbr.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Saquettaire/cbrreader.git"
+    "url": "https://github.com/alice-em/cbrreader.git"
   },
   "scripts": {
     "start": "node ./lib/cbr.js",
@@ -21,7 +21,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "minimist": "^1.1.1",
-    "path": "^0.11.14"
+    "minimist": "^1.2.0",
+    "path": "^0.12.7"
   }
 }
