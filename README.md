@@ -1,7 +1,6 @@
 # CBR - CBR book reader
 
 [![devDependency Status](https://david-dm.org/alice-em/cbrreader.svg)](https://david-dm.org/bhargavrpatel/cbrreader#info=dependencies&view=table)
-[![npm](https://img.shields.io/npm/l/express.svg)](https://github.com/bhargavrpatel/cbrreader/blob/master/LICENSE.md)
 
 Utility for `.cbr` file handling.
 
